@@ -153,7 +153,6 @@ export class ToolbarView extends DOMWidgetView {
                 }
                 this.model.save_changes();
             }
-
             this.send({
                 type: 'toolbar_button',
                 name: name,
